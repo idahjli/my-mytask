@@ -1,0 +1,14 @@
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/dao/StockDao.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/logic/StockLogic.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/service/TradeService.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/vo/StockType.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/vo/Trade.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/dao/DataStore.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/utils/HelpClass.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/vo/TradeType.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/Main.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/dao/StockDaoImpl.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/service/TradeServiceImpl.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/exceptions/StockException.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/vo/Stock.java
+/Users/idali/private_java/SuperSimpleStock/src/main/java/uk/jpmorgan/task/simple/stock/logic/StockLogicImpl.java

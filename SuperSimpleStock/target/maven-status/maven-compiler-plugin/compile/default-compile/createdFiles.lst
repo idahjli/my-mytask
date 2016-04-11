@@ -1,0 +1,15 @@
+uk/jpmorgan/task/simple/stock/vo/TradeType.class
+uk/jpmorgan/task/simple/stock/Main.class
+uk/jpmorgan/task/simple/stock/service/TradeServiceImpl.class
+uk/jpmorgan/task/simple/stock/vo/StockType.class
+uk/jpmorgan/task/simple/stock/dao/StockDaoImpl.class
+uk/jpmorgan/task/simple/stock/dao/DataStore.class
+uk/jpmorgan/task/simple/stock/dao/StockDao.class
+uk/jpmorgan/task/simple/stock/utils/HelpClass.class
+uk/jpmorgan/task/simple/stock/logic/StockLogic.class
+uk/jpmorgan/task/simple/stock/vo/Trade.class
+uk/jpmorgan/task/simple/stock/exceptions/StockException.class
+uk/jpmorgan/task/simple/stock/logic/StockLogicImpl$1.class
+uk/jpmorgan/task/simple/stock/vo/Stock.class
+uk/jpmorgan/task/simple/stock/logic/StockLogicImpl.class
+uk/jpmorgan/task/simple/stock/service/TradeService.class

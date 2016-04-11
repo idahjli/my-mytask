@@ -8,3 +8,7 @@ To build the project:
     Go to SuperSimpleStock, run: mvn clean install
     
     
+To run the project: 
+        run: java -jar SuperSimpleStock.jar
+    
+    

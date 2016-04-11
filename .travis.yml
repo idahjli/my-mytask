@@ -1,0 +1,31 @@
+language: java
+
+sudo: required
+
+jdk:
+- oraclejdk8
+
+install: true
+
+script:
+- mvn clean verify
+
+env:
+  global:
+  - secure: 0a0c4a36e4bef8e32c6e035b61f7e434db50db52
+  
+before_install:
+- pip install --user codecov
+after_success:
+- codecov
+
+deploy:
+  provider: releases
+  api_key:
+    secure: tApZY48919qpRi5XVI5aq/Ww7GqddUxfoj1JuTekGBc9GgIBKO5gDy2DMFBKlP64zwRdUMMqZMpeRw7t7U8K7DJWl6mloiryFw6cfRBdsOeckQsIChJRlDZeyVkU94/ssPlwDJn8+vki8RhXFtiPZLc6qSljfJpwIvt0PaF7u0Acnj/o5neF5e60PUec5yBt/2e80xKBZ07JesbrYMSdKfaxaxT2a7m4YgV+3zYnmJ4/oZp/j7S8M+rGLFsiC9XukFFFTPu0BDMKNeJSTTqX12xF9oxwTUrwzeSvfyaEn9lb0xuoptQMRxkBS0A5uKfFW0X406lpwsO/7Lg23tNO8OPo+vlRnQUT3BlNAaDiYdc7NWS/YI13ou0xLGrFPlCLI4HYw6qsSXJQwydYMeXqyG5he3cCcH1nF9Xnjon+nBUgmmGGcVPAKa5WhTkfzpqtZLO8uaKVehR2950M2XWdGGUP8SD9HXGMYWVnDN5u0Si6d0oBQjz312rD4KlCNYWbG0cU3ONz45e6qTtWf8tcn419ro7y3R9MiUJZh6bfbpgKmjm6wm61W7dL57b3OLFs7gRJq4dvHi4HRLh6Zz3nOfCtebXMSuyd0ATWEhJn5KeJLhmyERIAX3I+harYXy937ZBRTPUx1kogjB+hWUZLVjnf8fbiqTnAdQ8vO5Q5fL4=
+  file: SuperSimpleStock/target/SuperSimpleStock.jar
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: idahjli/my-mytask
+    all_branches: true

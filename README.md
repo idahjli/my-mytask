@@ -4,11 +4,16 @@
 
 This project build with maven
 
+# Build instructions
+        
+        
 To build the project:
-    Go to SuperSimpleStock, run: mvn clean install
     
+         mvn clean install
+
+To run the project 
+
+         run: java -jar SuperSimpleStock.jar
+
     
-To run the project: 
-        run: java -jar SuperSimpleStock.jar
-    
-    
+ 

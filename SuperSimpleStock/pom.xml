@@ -3,7 +3,12 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>uk.jpmorgan.task</groupId>
+    <parent>
+        <artifactId>stockproject</artifactId>
+        <groupId>uk.jpmorgan.task</groupId>
+        <version>0.1-SNAPSHOT</version> 
+    </parent>
+     
     <artifactId>SuperSimpleStock</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -20,24 +25,7 @@
 
     <dependencies>   
    
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
         
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
- 
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8.1</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
     
     <build>
@@ -99,5 +87,4 @@
         </repository>  
     </repositories> 
         
-</project>
-</project>
+</project> 
